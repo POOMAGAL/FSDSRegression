@@ -19,7 +19,7 @@ setup(
     version='0.0.1',
     author='poomagal',
     author_email='ctpoomagal@gmail.com',
-    install_requires=get_requirements('requirements.txt '),
+    install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 
 )
