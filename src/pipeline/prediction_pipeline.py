@@ -7,8 +7,8 @@ import pandas as pd
 
 
 class PredictPipeline:
-    def __init__(self) -> None:
-        
+    def __init__(self):
+        pass
     def predict(self, features):
         try:
             preprocessor_path=os.path.join('artifacts', 'preprocessor.pkl')
@@ -68,7 +68,7 @@ class CustomData:
             logging.info("Error occured in prediction pipeline")
             raise CustomException(e, sys)
         
-        
+
 
 
         
